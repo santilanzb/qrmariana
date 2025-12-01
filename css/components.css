@@ -1,0 +1,106 @@
+/* ===========================
+   Reusable Components
+   =========================== */
+
+/* Typography */
+.gradient-text {
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--accent-gradient);
+    color: white;
+    box-shadow: 0 4px 15px #a8e64526;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px #a8e64526;
+}
+
+.btn-secondary {
+    background: var(--glass-bg);
+    color: white;
+    border: 2px solid var(--accent-light);
+    box-shadow: 0 4px 15px #a8e64526;
+}
+
+.btn-secondary:hover {
+    background: #a8e6452b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px #a8e64526;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+/* Section Layouts */
+.section {
+    padding: var(--section-padding);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section-alt {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Glass Cards */
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 8px 32px rgba(255, 20, 147, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(255, 20, 147, 0.3);
+}
+
+/* Tags */
+.tag {
+    background: #ffffff13;
+    color: var(--accent-light);
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    border: 1px solid #a8e64526;
+}

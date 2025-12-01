@@ -1,0 +1,114 @@
+/* ===========================
+   Responsive Design
+   =========================== */
+
+@media (max-width: 768px) {
+    /* Navigation */
+    .nav-links {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+        color: #053347;
+    }
+
+    .lang-toggle {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Layouts */
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 4rem 1rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Timeline */
+    .timeline {
+        padding-left: 1.5rem;
+    }
+
+    .timeline-dot {
+        left: -2rem;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .new-hero-content-left {
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        padding-top: 60px;
+    }
+
+    .new-hero-content-image {
+        width: 80%; border-radius: 14px;
+    }
+
+    .new-hero-content-right {
+        width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-left: 0px;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Hero */
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    /* Grids */
+    .projects-grid,
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}

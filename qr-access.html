@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="qr.title">MSc. Mariana White - Quick Access</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍏</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #004e6f;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .container {
+            background: rgb(6 61 85);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 8px 32px 0 rgb(0 0 0 / 20%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.1;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background: #ffffff;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        .qr-container {
+            background: transparent;
+            padding: 20px;
+            border-radius: 16px;
+            text-align: center;
+            margin-bottom: 25px;
+            /*box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);*/
+        }
+
+        #qr-canvas {
+            display: block;
+            margin: 0 auto;
+            border-radius: 14px;
+        }
+
+        .url-display {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            border: 2px solid rgba(255, 20, 147, 0.5);
+        }
+
+        .url-display code {
+            font-family: 'Poppins', sans-serif;
+            color: #ff6b9d;
+            word-break: break-all;
+            font-size: 0.9rem;
+        }
+
+        .access-button {
+            display: block;
+            width: 100%;
+            padding: 15px 30px;
+            background: #7ac600;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 14px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px #7ac60039;
+            margin-bottom: 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .actions {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .secondary-button {
+            display: inline-block;
+            padding: 10px 14px;
+            background: rgb(255, 255, 255);
+            color: #004e70;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: background 0.2s ease, transform 0.2s ease;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+        }
+
+        .secondary-button:hover {
+            background: #cc1c4a;
+            color: #FFFFFF;
+            transform: translateY(-1px);
+        }
+
+        .access-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px #94f10042;
+        }
+
+        .instructions {
+            text-align: left;
+        }
+
+        .instructions h2 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #7bc601;
+        }
+
+        .step {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            border-left: 3px solid #7bc601;
+            transition: background 0.3s ease;
+        }
+
+        .step:hover {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .step-icon {
+            font-size: 1.3rem;
+            margin-right: 6px;
+            animation: pulse 2s infinite;
+        }
+
+        .step-text {
+            display: inline;
+            font-size: 0.95rem;
+            line-height: 1;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .access-button {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+
+            .instructions h2 {
+                font-size: 1.1rem;
+            }
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .logo-nutriwhite {
+            height: 35px;
+            width: auto;
+            margin-bottom: 10px;
+        }
+
+        /* Language Toggle Button */
+        .lang-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #004e70, #cc1c4a);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            box-shadow: 0 2px 10px rgba(0, 78, 112, 0.3);
+            z-index: 1000;
+        }
+
+        .lang-toggle:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(204, 28, 74, 0.4);
+        }
+
+        .lang-toggle:active {
+            transform: translateY(0);
+        }
+
+        .lang-flag {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://dfuj78z2i3ysr.cloudfront.net/assets/app-sources/img/nw-logo-white.png" class="logo-nutriwhite" alt="">
+    </div>
+    <div class="container">
+
+        <img style="width: 100%; height: auto; border-radius: 14px;" src="https://cdn.prod.website-files.com/6410ddce95279d058583d56c/6752fabc6ac9f331ed09b03f_ctrl_img_nw_HOME_slider_andreina.webp" alt="">
+
+        <h1 data-i18n="qr.heading">Quick Access to Mariana's Portfolio</h1>
+        
+        <div class="qr-container">
+            <canvas id="qr-canvas"></canvas>
+        </div>
+
+
+        <a href="index.html" class="access-button" data-i18n="qr.button.main">
+            View Full Portfolio & Book Consultation
+        </a>
+
+        <div class="actions">
+            <button id="copy-link" class="secondary-button" data-i18n="qr.button.copy">Copy Link</button>
+            <button id="share-link" class="secondary-button" data-i18n="qr.button.share">Share</button>
+            <button id="download-qr" class="secondary-button" data-i18n="qr.button.download">Download QR (PNG)</button>
+            <button id="print-page" class="secondary-button" data-i18n="qr.button.print">Print QR</button>
+        </div>
+
+        <div class="instructions">
+            <h2><span data-i18n="qr.instructions.title">📋 How to Access on Mobile</span></h2>
+            
+            <div class="step">
+                <span class="step-icon">📷</span>
+                <span class="step-text" data-i18n="qr.instructions.step1"><strong>Scan the QR Code</strong> - Open your camera app and point it at the QR code above. Tap the notification to open.</span>
+            </div>
+
+            <div class="step">
+                <span class="step-icon">🔖</span>
+                <span class="step-text" data-i18n="qr.instructions.step2"><strong>Bookmark This Page</strong> - Tap the share button and select "Add Bookmark" for quick access later.</span>
+            </div>
+
+            <div class="step">
+                <span class="step-icon">📲</span>
+                <span class="step-text" data-i18n="qr.instructions.step3"><strong>Add to Home Screen</strong> (iOS Safari) - Tap the share button, scroll down, and select "Add to Home Screen" for app-like access.</span>
+            </div>
+
+            <div class="step">
+                <span class="step-icon">🌐</span>
+                <span class="step-text" data-i18n="qr.instructions.step4"><strong>Android Users</strong> - Tap the three dots menu, then "Add to Home screen" for quick access.</span>
+            </div>
+        </div>
+
+        <div class="footer" data-i18n="qr.footer">
+            MSc. Mariana White - NutriWhite | Holistic Nutrition & Wellness Specialist
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+    <script type="module" src="js/qr-page.js"></script>
+</body>
+</html>

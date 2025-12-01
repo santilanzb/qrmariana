@@ -1,0 +1,49 @@
+/* ===========================
+   CSS Variables & Theme
+   =========================== */
+:root {
+    /* Gradients */
+    --primary-gradient: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    --accent-gradient: linear-gradient(45deg, #7bc601, #7eb02d);
+    
+    /* Colors */
+    --accent-color: #7bc601;
+    --accent-light: #a8e645;
+    --accent-dark: #7eb02d;
+    
+    /* Glass Effects */
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --dark-overlay: rgba(0, 0, 0, 0.3);
+    
+    /* Text Colors */
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.8);
+    --text-muted: rgba(255, 255, 255, 0.6);
+    
+    /* Spacing */
+    --section-padding: 6rem 2rem;
+    --container-max-width: 1200px;
+}
+
+/* ===========================
+   Reset & Base Styles
+   =========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #053347;
+    background-attachment: fixed;
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
