@@ -12,35 +12,34 @@ const translations = {
         'nav.contact': 'Contact',
         
         // Hero Section
-        'hero.subtitle': 'Co-founder & Director, NutriWhite | Nutrition & Immunology Specialist',
+        'hero.subtitle': 'Co-founder & Director, NutriWhite | Holistic Nutrition & Wellness Specialist',
         'hero.btn.services': 'View Services',
         'hero.btn.consultation': 'Book a Consultation',
         'hero.scroll': 'Scroll Down',
         
         // About Section
         'about.title': 'About Me',
-        'about.lead': 'Specialist in gut health, immunology, and metabolic optimization, offering evidence-based and personalized guidance.',
+        'about.lead': 'Specialist in infertility, pregnancy & lactation, and integrative nutrition care. Provides compassionate, evidence-informed support through both online and in-person consultations.',
         'about.text1': 'As Co-founder and Director of NutriWhite, I combine advanced academic training with practical expertise to help clients achieve optimal health through nutrition and lifestyle interventions.',
-        'about.text2': 'My approach integrates cutting-edge research in immunology and metabolism with personalized nutrition strategies, ensuring that each client receives tailored, science-backed recommendations for their unique health goals.',
-        'about.stat1': 'Advanced Degrees',
-        'about.stat2': 'Evidence-Based Practice',
+        'about.text2': 'My holistic approach integrates evidence-informed nutrition strategies with compassionate care, ensuring that each client receives personalized support tailored to their unique health journey, particularly in fertility, pregnancy, and overall wellness.',
+        'about.stat1': 'Certifications & Degrees',
+        'about.stat2': 'Compassionate Care',
         'about.stat3': 'Holistic Approach',
         
         // Education Section
         'education.title': 'Academic Qualifications',
-        'education.msc.nutrition': '🎓 MSc in Nutrition & Metabolism',
-        'education.msc.immunology': '🔬 MSc in Immunology',
+        'education.msc.nutrition': '🎓 MSc in Holistic Nutrition',
+        'education.certifications': '🏆 Professional Certifications',
         'education.bsc': '🍎 BSc in Nutrition & Dietetics',
-        'education.skill.metabolic': 'Metabolic Pathways',
-        'education.skill.energy': 'Energy Balance',
-        'education.skill.biochemistry': 'Nutritional Biochemistry',
-        'education.skill.clinical': 'Clinical Nutrition',
-        'education.skill.disorders': 'Metabolic Disorders',
-        'education.skill.immune': 'Immune System Function',
-        'education.skill.gut': 'Gut-Immune Axis',
-        'education.skill.inflammation': 'Inflammation Management',
-        'education.skill.autoimmune': 'Autoimmune Conditions',
-        'education.skill.microbiome': 'Microbiome Health',
+        'education.skill.holistic': 'Holistic Health',
+        'education.skill.integrative': 'Integrative Nutrition',
+        'education.skill.wellness': 'Wellness Coaching',
+        'education.skill.alternative': 'Alternative Medicine',
+        'education.skill.anatomy': 'Anatomy & Physiology (Honors)',
+        'education.skill.bchn': 'Board Certified Holistic Nutritionist',
+        'education.skill.psychology': 'Diploma in Positive Psychology',
+        'education.skill.coaching': 'Graduate Certificate: Wellness Coaching',
+        'education.skill.altmed': 'Graduate Certificate: Alternative Medicine',
         'education.skill.assessment': 'Nutritional Assessment',
         'education.skill.planning': 'Dietary Planning',
         'education.skill.food': 'Food Science',
@@ -49,14 +48,14 @@ const translations = {
         
         // Expertise Section
         'expertise.title': 'Areas of Expertise',
-        'expertise.gut.title': '🦠 Gut Health & Microbiome Optimization',
-        'expertise.gut.desc': 'Specialized protocols for improving digestive health, balancing gut microbiota, and addressing conditions such as IBS, SIBO, and inflammatory bowel conditions through evidence-based nutritional interventions.',
-        'expertise.immune.title': '🛡️ Immune System Support',
-        'expertise.immune.desc': 'Personalized strategies to strengthen immune function, manage autoimmune conditions, and reduce chronic inflammation through targeted nutrition and lifestyle modifications.',
-        'expertise.metabolic.title': '⚡ Metabolic Optimization',
-        'expertise.metabolic.desc': 'Comprehensive metabolic assessments and personalized nutrition plans to optimize energy levels, support healthy weight management, and improve overall metabolic health.',
-        'expertise.counseling.title': '🎯 Personalized Nutrition Counseling',
-        'expertise.counseling.desc': 'Individual consultations combining scientific evidence with practical, sustainable dietary recommendations tailored to your unique health goals, lifestyle, and biochemistry.',
+        'expertise.fertility.title': '👶 Infertility & Preconception Care',
+        'expertise.fertility.desc': 'Specialized nutritional support for couples preparing for pregnancy, optimizing fertility through evidence-informed dietary strategies, lifestyle modifications, and holistic wellness approaches tailored to your unique needs.',
+        'expertise.pregnancy.title': '🤰 Pregnancy Nutrition',
+        'expertise.pregnancy.desc': 'Compassionate, personalized nutrition guidance throughout pregnancy to support maternal health and fetal development, managing pregnancy-related conditions with safe, effective dietary interventions.',
+        'expertise.lactation.title': '🤱 Lactation Support',
+        'expertise.lactation.desc': 'Expert nutritional counseling for breastfeeding mothers, optimizing milk production, addressing common lactation challenges, and ensuring optimal nutrition for both mother and baby during this crucial period.',
+        'expertise.integrative.title': '🌱 Integrative Nutrition Care',
+        'expertise.integrative.desc': 'Holistic approach combining evidence-informed nutrition with positive psychology, wellness coaching, and alternative medicine principles to address the whole person—mind, body, and spirit.',
         
         // Services Section
         'services.title': 'Services Offered',
@@ -87,7 +86,7 @@ const translations = {
         'contact.intro': 'Ready to take control of your health with evidence-based, personalized nutrition guidance? Book a consultation today and discover how targeted nutrition can transform your wellbeing.',
         'contact.book.assistant': 'Book Consultation (Assistant)',
         'contact.book.link': 'Schedule via WhatsApp',
-        'contact.direct.label': 'Direct Contact - Andreina',
+        'contact.direct.label': 'Direct Contact - Mariana',
         'contact.direct.link': 'WhatsApp Direct',
         'contact.company.label': 'Company',
         'contact.company.value': 'NutriWhite',
@@ -95,15 +94,15 @@ const translations = {
         'contact.expect.item1': 'Comprehensive health and nutrition assessment',
         'contact.expect.item2': 'Personalized, evidence-based recommendations',
         'contact.expect.item3': 'Ongoing support and progress monitoring',
-        'contact.expect.item4': 'Access to specialized expertise in gut health, immunology, and metabolism',
+        'contact.expect.item4': 'Access to specialized expertise in fertility, pregnancy, lactation, and holistic wellness',
         'contact.book.now': 'Book Now via WhatsApp',
         
         // Footer
-        'footer.rights': '2025 MSc. Andreina White - NutriWhite. All rights reserved.',
+        'footer.rights': '2025 MSc. Mariana White - NutriWhite. All rights reserved.',
         
         // QR Access Page
-        'qr.title': 'MSc. Andreina White - Quick Access',
-        'qr.heading': 'Quick Access to Andreina\'s Portfolio',
+        'qr.title': 'MSc. Mariana White - Quick Access',
+        'qr.heading': 'Quick Access to Mariana\'s Portfolio',
         'qr.button.main': 'View Full Portfolio & Book Consultation',
         'qr.button.copy': 'Copy Link',
         'qr.button.share': 'Share',
@@ -114,7 +113,7 @@ const translations = {
         'qr.instructions.step2': '<strong>Bookmark This Page</strong> - Tap the share button and select "Add Bookmark" for quick access later.',
         'qr.instructions.step3': '<strong>Add to Home Screen</strong> (iOS Safari) - Tap the share button, scroll down, and select "Add to Home Screen" for app-like access.',
         'qr.instructions.step4': '<strong>Android Users</strong> - Tap the three dots menu, then "Add to Home screen" for quick access.',
-        'qr.footer': 'MSc. Andreina White - NutriWhite | Nutrition & Immunology Specialist',
+        'qr.footer': 'MSc. Mariana White - NutriWhite | Holistic Nutrition & Wellness Specialist',
         'qr.button.copy.success': 'Copied!',
         'qr.button.share.success': 'Link Copied'
     },
@@ -127,35 +126,34 @@ const translations = {
         'nav.contact': 'Contacto',
         
         // Hero Section
-        'hero.subtitle': 'Cofundadora y Directora, NutriWhite | Especialista en Nutrición e Inmunología',
+        'hero.subtitle': 'Cofundadora y Directora, NutriWhite | Especialista en Nutrición Holística y Bienestar',
         'hero.btn.services': 'Ver Servicios',
         'hero.btn.consultation': 'Reservar una Consulta',
         'hero.scroll': 'Desplázate hacia abajo',
         
         // About Section
         'about.title': 'Sobre Mí',
-        'about.lead': 'Especialista en salud intestinal, inmunología y optimización metabólica, ofreciendo orientación personalizada basada en evidencia.',
+        'about.lead': 'Especialista en infertilidad, embarazo y lactancia, y atención nutricional integrativa. Brinda apoyo compasivo y basado en evidencia a través de consultas en línea y presenciales.',
         'about.text1': 'Como cofundadora y directora de NutriWhite, combino formación académica avanzada con experiencia práctica para ayudar a los clientes a lograr una salud óptima a través de intervenciones nutricionales y de estilo de vida.',
-        'about.text2': 'Mi enfoque integra investigación de vanguardia en inmunología y metabolismo con estrategias de nutrición personalizadas, asegurando que cada cliente reciba recomendaciones científicas adaptadas a sus objetivos de salud únicos.',
-        'about.stat1': 'Títulos Avanzados',
-        'about.stat2': 'Práctica Basada en Evidencia',
+        'about.text2': 'Mi enfoque holístico integra estrategias de nutrición informadas por evidencia con atención compasiva, asegurando que cada cliente reciba apoyo personalizado adaptado a su viaje de salud único, particularmente en fertilidad, embarazo y bienestar general.',
+        'about.stat1': 'Certificaciones y Títulos',
+        'about.stat2': 'Atención Compasiva',
         'about.stat3': 'Enfoque Holístico',
         
         // Education Section
         'education.title': 'Calificaciones Académicas',
-        'education.msc.nutrition': '🎓 MSc en Nutrición y Metabolismo',
-        'education.msc.immunology': '🔬 MSc en Inmunología',
+        'education.msc.nutrition': '🎓 MSc en Nutrición Holística',
+        'education.certifications': '🏆 Certificaciones Profesionales',
         'education.bsc': '🍎 Licenciatura en Nutrición y Dietética',
-        'education.skill.metabolic': 'Vías Metabólicas',
-        'education.skill.energy': 'Balance Energético',
-        'education.skill.biochemistry': 'Bioquímica Nutricional',
-        'education.skill.clinical': 'Nutrición Clínica',
-        'education.skill.disorders': 'Trastornos Metabólicos',
-        'education.skill.immune': 'Función del Sistema Inmune',
-        'education.skill.gut': 'Eje Intestino-Inmune',
-        'education.skill.inflammation': 'Manejo de Inflamación',
-        'education.skill.autoimmune': 'Condiciones Autoinmunes',
-        'education.skill.microbiome': 'Salud del Microbioma',
+        'education.skill.holistic': 'Salud Holística',
+        'education.skill.integrative': 'Nutrición Integrativa',
+        'education.skill.wellness': 'Coaching de Bienestar',
+        'education.skill.alternative': 'Medicina Alternativa',
+        'education.skill.anatomy': 'Anatomía y Fisiología (Honores)',
+        'education.skill.bchn': 'Nutricionista Holística Certificada',
+        'education.skill.psychology': 'Diploma en Psicología Positiva',
+        'education.skill.coaching': 'Certificado de Posgrado: Coaching de Bienestar',
+        'education.skill.altmed': 'Certificado de Posgrado: Medicina Alternativa',
         'education.skill.assessment': 'Evaluación Nutricional',
         'education.skill.planning': 'Planificación Dietética',
         'education.skill.food': 'Ciencia de los Alimentos',
@@ -164,14 +162,14 @@ const translations = {
         
         // Expertise Section
         'expertise.title': 'Áreas de Experiencia',
-        'expertise.gut.title': '🦠 Salud Intestinal y Optimización del Microbioma',
-        'expertise.gut.desc': 'Protocolos especializados para mejorar la salud digestiva, equilibrar la microbiota intestinal y abordar condiciones como SII, SIBO y condiciones inflamatorias intestinales mediante intervenciones nutricionales basadas en evidencia.',
-        'expertise.immune.title': '🛡️ Soporte del Sistema Inmune',
-        'expertise.immune.desc': 'Estrategias personalizadas para fortalecer la función inmune, manejar condiciones autoinmunes y reducir la inflamación crónica a través de modificaciones específicas de nutrición y estilo de vida.',
-        'expertise.metabolic.title': '⚡ Optimización Metabólica',
-        'expertise.metabolic.desc': 'Evaluaciones metabólicas integrales y planes de nutrición personalizados para optimizar los niveles de energía, apoyar el manejo saludable del peso y mejorar la salud metabólica general.',
-        'expertise.counseling.title': '🎯 Asesoramiento Nutricional Personalizado',
-        'expertise.counseling.desc': 'Consultas individuales que combinan evidencia científica con recomendaciones dietéticas prácticas y sostenibles adaptadas a tus objetivos de salud únicos, estilo de vida y bioquímica.',
+        'expertise.fertility.title': '👶 Infertilidad y Cuidado Preconcepcional',
+        'expertise.fertility.desc': 'Apoyo nutricional especializado para parejas que se preparan para el embarazo, optimizando la fertilidad a través de estrategias dietéticas informadas por evidencia, modificaciones de estilo de vida y enfoques holísticos de bienestar adaptados a sus necesidades únicas.',
+        'expertise.pregnancy.title': '🤰 Nutrición durante el Embarazo',
+        'expertise.pregnancy.desc': 'Orientación nutricional compasiva y personalizada durante el embarazo para apoyar la salud materna y el desarrollo fetal, manejando condiciones relacionadas con el embarazo con intervenciones dietéticas seguras y efectivas.',
+        'expertise.lactation.title': '🤱 Apoyo a la Lactancia',
+        'expertise.lactation.desc': 'Asesoramiento nutricional experto para madres lactantes, optimizando la producción de leche, abordando desafíos comunes de lactancia y asegurando una nutrición óptima tanto para la madre como para el bebé durante este período crucial.',
+        'expertise.integrative.title': '🌱 Atención Nutricional Integrativa',
+        'expertise.integrative.desc': 'Enfoque holístico que combina nutrición informada por evidencia con psicología positiva, coaching de bienestar y principios de medicina alternativa para abordar a la persona completa: mente, cuerpo y espíritu.',
         
         // Services Section
         'services.title': 'Servicios Ofrecidos',
@@ -202,7 +200,7 @@ const translations = {
         'contact.intro': '¿Listo para tomar el control de tu salud con orientación nutricional personalizada basada en evidencia? Reserva una consulta hoy y descubre cómo la nutrición dirigida puede transformar tu bienestar.',
         'contact.book.assistant': 'Reservar Consulta (Asistente)',
         'contact.book.link': 'Agendar vía WhatsApp',
-        'contact.direct.label': 'Contacto Directo - Andreina',
+        'contact.direct.label': 'Contacto Directo - Mariana',
         'contact.direct.link': 'WhatsApp Directo',
         'contact.company.label': 'Empresa',
         'contact.company.value': 'NutriWhite',
@@ -210,15 +208,15 @@ const translations = {
         'contact.expect.item1': 'Evaluación integral de salud y nutrición',
         'contact.expect.item2': 'Recomendaciones personalizadas basadas en evidencia',
         'contact.expect.item3': 'Apoyo continuo y monitoreo de progreso',
-        'contact.expect.item4': 'Acceso a experiencia especializada en salud intestinal, inmunología y metabolismo',
+        'contact.expect.item4': 'Acceso a experiencia especializada en fertilidad, embarazo, lactancia y bienestar holístico',
         'contact.book.now': 'Reservar Ahora vía WhatsApp',
         
         // Footer
-        'footer.rights': '2025 MSc. Andreina White - NutriWhite. Todos los derechos reservados.',
+        'footer.rights': '2025 MSc. Mariana White - NutriWhite. Todos los derechos reservados.',
         
         // QR Access Page
-        'qr.title': 'MSc. Andreina White - Acceso Rápido',
-        'qr.heading': 'Acceso Rápido al Portafolio de Andreina',
+        'qr.title': 'MSc. Mariana White - Acceso Rápido',
+        'qr.heading': 'Acceso Rápido al Portafolio de Mariana',
         'qr.button.main': 'Ver Portafolio Completo y Reservar Consulta',
         'qr.button.copy': 'Copiar Enlace',
         'qr.button.share': 'Compartir',
@@ -229,7 +227,7 @@ const translations = {
         'qr.instructions.step2': '<strong>Guarda esta Página</strong> - Toca el botón de compartir y selecciona "Añadir Marcador" para acceso rápido más tarde.',
         'qr.instructions.step3': '<strong>Añadir a Pantalla de Inicio</strong> (iOS Safari) - Toca el botón compartir, desplázate hacia abajo y selecciona "Añadir a pantalla de inicio" para acceso tipo app.',
         'qr.instructions.step4': '<strong>Usuarios Android</strong> - Toca el menú de tres puntos, luego "Añadir a pantalla de inicio" para acceso rápido.',
-        'qr.footer': 'MSc. Andreina White - NutriWhite | Especialista en Nutrición e Inmunología',
+        'qr.footer': 'MSc. Mariana White - NutriWhite | Especialista en Nutrición Holística y Bienestar',
         'qr.button.copy.success': '¡Copiado!',
         'qr.button.share.success': 'Enlace Copiado'
     }
@@ -281,12 +279,12 @@ export function getCurrentLanguage() {
 export function getWhatsAppLink(type) {
     const links = {
         en: {
-            assistant: 'https://api.whatsapp.com/send?phone=584241896377&text=Hi,%20I%20come%20from%20Andreina\'s%20QR%20code,%20I%20want%20a%20consultation%20with%20her',
-            direct: 'https://api.whatsapp.com/send?phone=17865853057&text=Hi%20Andreina,%20I%20come%20from%20your%20QR%20code'
+            assistant: 'https://api.whatsapp.com/send?phone=584128574606&text=Hi,%20I%20come%20from%20Mariana\'s%20QR%20code,%20I%20want%20a%20consultation%20with%20her',
+            direct: 'https://api.whatsapp.com/send?phone=13058900494&text=Hi%20Mariana,%20I%20come%20from%20your%20QR%20code'
         },
         es: {
-            assistant: 'https://api.whatsapp.com/send?phone=584241896377&text=Hola,%20vengo%20del%20QR%20de%20Andreina,%20quiero%20un%20plan%20de%20consultas%20con%20ella',
-            direct: 'https://api.whatsapp.com/send?phone=17865853057&text=Hola%20Andreina,%20vengo%20de%20tu%20pagina%20con%20tu%20codigo%20QR'
+            assistant: 'https://api.whatsapp.com/send?phone=584128574606&text=Hola,%20vengo%20del%20QR%20de%20Mariana,%20quiero%20un%20plan%20de%20consultas%20con%20ella',
+            direct: 'https://api.whatsapp.com/send?phone=13058900494&text=Hola%20Mariana,%20vengo%20de%20tu%20pagina%20con%20tu%20codigo%20QR'
         }
     };
     return links[currentLanguage][type];
