@@ -47,7 +47,7 @@ function initQRPage() {
     shareBtn?.addEventListener('click', async () => {
         if (navigator.share) {
             try {
-                await navigator.share({ title: "Andreina White - Portfolio", url: portfolioURL });
+                await navigator.share({ title: "Mariana White - Portfolio", url: portfolioURL });
             } catch {}
         } else {
             await navigator.clipboard.writeText(portfolioURL);
@@ -59,7 +59,7 @@ function initQRPage() {
 
     downloadBtn?.addEventListener('click', () => {
         const link = document.createElement('a');
-        link.download = 'andreina-portfolio-qr.png';
+        link.download = 'mariana-portfolio-qr.png';
         link.href = canvas.toDataURL('image/png');
         link.click();
     });
