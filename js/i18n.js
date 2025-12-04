@@ -19,11 +19,11 @@ const translations = {
         
         // About Section
         'about.title': 'About Me',
-        'about.lead': 'Specialist in infertility, pregnancy & lactation, and integrative nutrition care. Provides compassionate, evidence-informed support through both online and in-person consultations.',
+        'about.lead': 'Specialist in: gastrointestinal disorders, autoimmune diseases, pregnancy and lactation, pediatric nutrition. Provides personalized support through both online and in-person consultations.',
         'about.text1': 'As Co-founder and Director of NutriWhite, I combine advanced academic training with practical expertise to help clients achieve optimal health through nutrition and lifestyle interventions.',
-        'about.text2': 'My holistic approach integrates evidence-informed nutrition strategies with compassionate care, ensuring that each client receives personalized support tailored to their unique health journey, particularly in fertility, pregnancy, and overall wellness.',
+        'about.text2': 'My holistic approach integrates evidence-informed nutrition strategies with close and humane care, ensuring that each client receives personalized support tailored to their unique health journey, particularly in gastrointestinal disorders, autoimmune diseases, pregnancy and overall wellness.',
         'about.stat1': 'Certifications & Degrees',
-        'about.stat2': 'Compassionate Care',
+        'about.stat2': 'Personalized Support',
         'about.stat3': 'Holistic Approach',
         
         // Education Section
@@ -48,14 +48,14 @@ const translations = {
         
         // Expertise Section
         'expertise.title': 'Areas of Expertise',
-        'expertise.fertility.title': '👶 Infertility & Preconception Care',
-        'expertise.fertility.desc': 'Specialized nutritional support for couples preparing for pregnancy, optimizing fertility through evidence-informed dietary strategies, lifestyle modifications, and holistic wellness approaches tailored to your unique needs.',
-        'expertise.pregnancy.title': '🤰 Pregnancy Nutrition',
-        'expertise.pregnancy.desc': 'Compassionate, personalized nutrition guidance throughout pregnancy to support maternal health and fetal development, managing pregnancy-related conditions with safe, effective dietary interventions.',
-        'expertise.lactation.title': '🤱 Lactation Support',
-        'expertise.lactation.desc': 'Expert nutritional counseling for breastfeeding mothers, optimizing milk production, addressing common lactation challenges, and ensuring optimal nutrition for both mother and baby during this crucial period.',
-        'expertise.integrative.title': '🌱 Integrative Nutrition Care',
-        'expertise.integrative.desc': 'Holistic approach combining evidence-informed nutrition with positive psychology, wellness coaching, and alternative medicine principles to address the whole person—mind, body, and spirit.',
+        'expertise.fertility.title': '🦠 Gastrointestinal Disorders',
+        'expertise.fertility.desc': 'Specialized nutritional support to manage digestive conditions such as irritable bowel syndrome, dysbiosis, gastritis, food intolerances, and other gastrointestinal disorders. I design personalized plans backed by scientific evidence to reduce symptoms, improve digestion, and restore intestinal health.',
+        'expertise.pregnancy.title': '🧬 Autoimmune Diseases',
+        'expertise.pregnancy.desc': 'Nutritional interventions adapted to the needs of people with autoimmune diseases such as Hashimoto’s, rheumatoid arthritis, lupus, and other conditions related to inflammation. I use integrative approaches that support immune regulation and promote overall well-being.',
+        'expertise.lactation.title': '🤰 Pregnancy and Lactation',
+        'expertise.lactation.desc': 'Personalized nutritional guidance for each stage of pregnancy and lactation, supporting maternal health, optimal baby development, and prevention or management of related conditions. I accompany with practical, safe recommendations adapted to each case.',
+        'expertise.integrative.title': '👶 Pediatric Nutrition',
+        'expertise.integrative.desc': 'Specialized counseling on infant feeding from the first months to childhood, addressing growth, development, complementary feeding, food selectivity, and nutritional prevention. Approach focused on healthy habits and long-term well-being.',
         
         // Services Section
         'services.title': 'Services Offered',
@@ -89,12 +89,12 @@ const translations = {
         'contact.direct.label': 'Direct Contact - Mariana',
         'contact.direct.link': 'WhatsApp Direct',
         'contact.company.label': 'Company',
-        'contact.company.value': 'NutriWhite',
+        'contact.company.link': 'Visit NutriWhite',
         'contact.expect.title': 'What to Expect',
         'contact.expect.item1': 'Comprehensive health and nutrition assessment',
         'contact.expect.item2': 'Personalized, evidence-based recommendations',
         'contact.expect.item3': 'Ongoing support and progress monitoring',
-        'contact.expect.item4': 'Access to specialized expertise in fertility, pregnancy, lactation, and holistic wellness',
+        'contact.expect.item4': 'Specialist in: gastrointestinal disorders, autoimmune diseases, pregnancy and lactation, pediatric nutrition',
         'contact.book.now': 'Book Now via WhatsApp',
         
         // Footer
@@ -133,11 +133,11 @@ const translations = {
         
         // About Section
         'about.title': 'Sobre Mí',
-        'about.lead': 'Especialista en infertilidad, embarazo y lactancia, y atención nutricional integrativa. Brinda apoyo compasivo y basado en evidencia a través de consultas en línea y presenciales.',
+        'about.lead': 'Especialista en: trastornos gastrointestinales, enfermedades autoinmunes, embarazo y lactancia, nutrición pediátrica. Brinda apoyo personalizado a través de consultas en línea y presenciales.',
         'about.text1': 'Como cofundadora y directora de NutriWhite, combino formación académica avanzada con experiencia práctica para ayudar a los clientes a lograr una salud óptima a través de intervenciones nutricionales y de estilo de vida.',
-        'about.text2': 'Mi enfoque holístico integra estrategias de nutrición informadas por evidencia con atención compasiva, asegurando que cada cliente reciba apoyo personalizado adaptado a su viaje de salud único, particularmente en fertilidad, embarazo y bienestar general.',
+        'about.text2': 'Mi enfoque holístico integra estrategias de nutrición informadas por evidencia con atención cercana y humana, asegurando que cada cliente reciba apoyo personalizado adaptado a su viaje de salud único, particularmente en trastornos gastrointestinales, enfermedades autoinmunes, embarazo y bienestar general.',
         'about.stat1': 'Certificaciones y Títulos',
-        'about.stat2': 'Atención Compasiva',
+        'about.stat2': 'Apoyo Personalizado',
         'about.stat3': 'Enfoque Holístico',
         
         // Education Section
@@ -162,14 +162,14 @@ const translations = {
         
         // Expertise Section
         'expertise.title': 'Áreas de Experiencia',
-        'expertise.fertility.title': '👶 Infertilidad y Cuidado Preconcepcional',
-        'expertise.fertility.desc': 'Apoyo nutricional especializado para parejas que se preparan para el embarazo, optimizando la fertilidad a través de estrategias dietéticas informadas por evidencia, modificaciones de estilo de vida y enfoques holísticos de bienestar adaptados a sus necesidades únicas.',
-        'expertise.pregnancy.title': '🤰 Nutrición durante el Embarazo',
-        'expertise.pregnancy.desc': 'Orientación nutricional compasiva y personalizada durante el embarazo para apoyar la salud materna y el desarrollo fetal, manejando condiciones relacionadas con el embarazo con intervenciones dietéticas seguras y efectivas.',
-        'expertise.lactation.title': '🤱 Apoyo a la Lactancia',
-        'expertise.lactation.desc': 'Asesoramiento nutricional experto para madres lactantes, optimizando la producción de leche, abordando desafíos comunes de lactancia y asegurando una nutrición óptima tanto para la madre como para el bebé durante este período crucial.',
-        'expertise.integrative.title': '🌱 Atención Nutricional Integrativa',
-        'expertise.integrative.desc': 'Enfoque holístico que combina nutrición informada por evidencia con psicología positiva, coaching de bienestar y principios de medicina alternativa para abordar a la persona completa: mente, cuerpo y espíritu.',
+        'expertise.fertility.title': '🦠 Trastornos Gastrointestinales',
+        'expertise.fertility.desc': 'Apoyo nutricional especializado para manejar condiciones digestivas como síndrome de intestino irritable, disbiosis, gastritis, intolerancias alimentarias y otros trastornos gastrointestinales. Diseño planes personalizados respaldados por evidencia científica para reducir síntomas, mejorar la digestión y restaurar la salud intestinal.',
+        'expertise.pregnancy.title': '🧬 Enfermedades Autoinmunes',
+        'expertise.pregnancy.desc': 'Intervenciones nutricionales adaptadas a las necesidades de personas con enfermedades autoinmunes como Hashimoto, artritis reumatoide, lupus y otras condiciones relacionadas con la inflamación. Utilizo enfoques integrativos que apoyan la regulación inmunológica y promueven el bienestar general.',
+        'expertise.lactation.title': '🤰 Embarazo y Lactancia',
+        'expertise.lactation.desc': 'Orientación nutricional personalizada para cada etapa del embarazo y la lactancia, apoyando la salud materna, el desarrollo óptimo del bebé y la prevención o manejo de condiciones relacionadas. Acompaño con recomendaciones prácticas, seguras y adaptadas a cada caso.',
+        'expertise.integrative.title': '👶 Nutrición Pediátrica',
+        'expertise.integrative.desc': 'Asesoramiento especializado en alimentación infantil desde los primeros meses hasta la infancia, abordando crecimiento, desarrollo, alimentación complementaria, selectividad alimentaria y prevención nutricional. Enfoque centrado en hábitos saludables y bienestar a largo plazo.',
         
         // Services Section
         'services.title': 'Servicios Ofrecidos',
@@ -203,12 +203,12 @@ const translations = {
         'contact.direct.label': 'Contacto Directo - Mariana',
         'contact.direct.link': 'WhatsApp Directo',
         'contact.company.label': 'Empresa',
-        'contact.company.value': 'NutriWhite',
+        'contact.company.link': 'Visitar NutriWhite',
         'contact.expect.title': 'Qué Esperar',
         'contact.expect.item1': 'Evaluación integral de salud y nutrición',
         'contact.expect.item2': 'Recomendaciones personalizadas basadas en evidencia',
         'contact.expect.item3': 'Apoyo continuo y monitoreo de progreso',
-        'contact.expect.item4': 'Acceso a experiencia especializada en fertilidad, embarazo, lactancia y bienestar holístico',
+        'contact.expect.item4': 'Especialista en: trastornos gastrointestinales, enfermedades autoinmunes, embarazo y lactancia, nutrición pediátrica',
         'contact.book.now': 'Reservar Ahora vía WhatsApp',
         
         // Footer
