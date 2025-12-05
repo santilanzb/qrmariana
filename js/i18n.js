@@ -19,11 +19,15 @@ const translations = {
         
         // About Section
         'about.title': 'About Me',
+        'about.lead': 'Specialist in infertility, pregnancy & lactation, and integrative nutrition care. Provides compassionate, evidence-informed support through both online and in-person consultations.',
+        'about.text1': 'As Co-founder and Director of NutriWhite, I combine advanced academic training with practical expertise to help clients achieve optimal health through nutrition and lifestyle interventions.',
+        'about.text2': 'My holistic approach integrates evidence-informed nutrition strategies with compassionate care, ensuring that each client receives personalized support tailored to their unique health journey, particularly in fertility, pregnancy, and overall wellness.',
         'about.block1': 'Over 15 years of experience with patients.',
         'about.block2': 'International Speaker.',
         'about.block3': 'Co-author of the book "Adiós Enfermedades".',
         'about.block4': 'Author of published research papers.',
         'about.block5': 'TV, Radio, blogs, and podcasts.',
+        'about.block6': 'Personalized Attention.',
         
         // Education Section
         'education.title': 'Academic Qualifications',
@@ -132,11 +136,15 @@ const translations = {
         
         // About Section
         'about.title': 'Sobre Mí',
+        'about.lead': 'Especialista en: trastornos gastrointestinales, enfermedades autoinmunes, embarazo y lactancia, nutrición pediátrica. Brinda apoyo personalizado a través de consultas en línea y presenciales.',
+        'about.text1': 'Como cofundadora y directora de NutriWhite, combino formación académica avanzada con experiencia práctica para ayudar a los clientes a lograr una salud óptima a través de intervenciones nutricionales y de estilo de vida.',
+        'about.text2': 'Mi enfoque holístico integra estrategias de nutrición informadas por evidencia con atención cercana y humana, asegurando que cada cliente reciba apoyo personalizado adaptado a su viaje de salud único, particularmente en trastornos gastrointestinales, enfermedades autoinmunes, embarazo y bienestar general.',
         'about.block1': 'Más de 15 años de experiencia con pacientes.',
         'about.block2': 'Conferencista internacional.',
         'about.block3': 'Co-autora del libro "Adiós Enfermedades".',
         'about.block4': 'Autora de trabajos de investigación publicados.',
         'about.block5': 'TV, Radio, blogs y podcasts.',
+        'about.block6': 'Atención Personalizada.',
         
         // Education Section
         'education.title': 'Calificaciones Académicas',
